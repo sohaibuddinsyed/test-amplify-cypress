@@ -1,13 +1,9 @@
 version: 1
-backend:
-  phases:
-    build:
-      commands:
-        - npm install
 frontend:
   phases:
     build:
       commands:
+        - npm install
         - npm run build
         - npm install --save-dev cypress
         - ls -al
