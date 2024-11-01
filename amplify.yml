@@ -3,7 +3,7 @@ backend:
   phases:
     build:
       commands:
-        - npm ci --cache .npm --prefer-offline
+        - npm install
 frontend:
   phases:
     build:
