@@ -6,7 +6,9 @@ frontend:
         - npm install
         - npm install --save-dev cypress
         - ls -al
-        - ls -al ~/.cache
+        - ls -al ~/.cache/
+        - ls -al ~/.cache/Cypress
+        - ls -al ~/.cache/Cypress/13.13.3/Cypress
   artifacts:
     baseDirectory: dist
     files:
