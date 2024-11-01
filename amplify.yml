@@ -11,6 +11,9 @@ frontend:
         - ls -al ~/.cache/Cypress/13.5.0/Cypress
         - pwd
         - echo $HOME
+        - echo ~
+        - ls -al ~
+        - cd ~ && pwd && ls
         - printenv
         - node main.js $HOME
   artifacts:
