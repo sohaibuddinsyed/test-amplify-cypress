@@ -5,7 +5,7 @@ import fs from 'fs';
 async function processFiles() {
   try {
     const args = process.argv.slice(2);
-    const cwd = args[0];
+    const cwd = process.cwd();
     console.log("cwd: " + cwd);
     const globs = ['/root/.cache/Cypress'];
     
