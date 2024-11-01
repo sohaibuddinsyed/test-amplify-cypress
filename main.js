@@ -6,7 +6,8 @@ async function processFiles() {
   try {
     const args = process.argv.slice(2);
     const cwd = args[0];
-    const globs = ['root/.cache/Cypress'];
+    console.log("cwd: " + cwd);
+    const globs = ['/root/.cache/Cypress'];
     
     console.log('# Creating cache artifact...');
     
