@@ -8,7 +8,7 @@ frontend:
         - ls -al
         - ls -al ~/.cache/
         - ls -al ~/.cache/Cypress
-        - ls -al ~/.cache/Cypress/13.13.3/Cypress
+        - ls -al ~/.cache/Cypress/13.5.0/Cypress
         - node main.js $HOME
   artifacts:
     baseDirectory: dist
