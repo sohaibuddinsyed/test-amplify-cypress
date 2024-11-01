@@ -13,8 +13,8 @@ frontend:
         - echo $HOME
         - echo ~
         - ls -al ~
-        - cd ~ && pwd && ls
-        - printenv
+        - cd ~ && pwd
+        - ls -al
         - node main.js $HOME
   artifacts:
     baseDirectory: dist
