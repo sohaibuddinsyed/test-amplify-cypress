@@ -15,7 +15,7 @@ frontend:
         - ls -al ~
         - cd ~ && pwd
         - ls -al
-        - node main.js $HOME
+        - python get_rel_path.py
   artifacts:
     baseDirectory: dist
     files:
