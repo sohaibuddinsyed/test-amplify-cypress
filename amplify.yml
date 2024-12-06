@@ -24,4 +24,4 @@ frontend:
     paths:
       - .npm/**/*
       - node_modules/**/*
-      - /root/.cache/Cypress
+      - ../../../../../root/.cache/Cypress
