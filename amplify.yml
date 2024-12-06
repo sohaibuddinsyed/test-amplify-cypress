@@ -3,6 +3,7 @@ frontend:
   phases:
     build:
       commands:
+        - ls -al ~/.cache/
         - npm install
         - npm install --save-dev cypress
         - ls -al
