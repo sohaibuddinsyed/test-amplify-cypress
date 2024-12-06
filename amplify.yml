@@ -13,9 +13,9 @@ frontend:
         - echo $HOME
         - echo ~
         - ls -al ~
+        - - python get_rel_path.py
         - cd ~ && pwd
         - ls -al
-        - python get_rel_path.py
   artifacts:
     baseDirectory: dist
     files:
